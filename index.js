@@ -12,7 +12,7 @@ function setCart(c) {
 function addToCart(itemName) {
  // write your code here
  // 
- cart.push(itemName);
+ Object.assign(itemName);
  function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
 }
