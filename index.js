@@ -9,8 +9,22 @@ function setCart(c) {
   return cart;
 }
 
-function addToCart(item) {
+function addToCart(itemName) {
  // write your code here
+ // 
+ cart.push(itemName);
+ function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+ 
+  var price =  getRandomInt(100);
+  itemName = { itemName: "name", itemPrice: price  };
+
+
+ 
+ 
+ return itemName + "has been added to your cart.";
+
 }
 
 function viewCart() {
